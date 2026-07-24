@@ -16,7 +16,7 @@ const Terminal = () => {
         whoami: () => 'guest@harshkilledar.dev - computer science student and software engineer builder.',
         skills: () => 'MERN (MongoDB, Express, React, Node), C++, Python, Java, SQL, REST APIs, Git, Docker, OpenAI API',
         certs: () => 'Verified: 1. CSS Training (95.0%)  2. Java Training (87.5%)  3. HTML Training (90.0%) - IIT Bombay tests.',
-        projects: () => '1. Food Nutrition Analyzer (MERN+AI)  2. Employee CRUD (C+SQLite)  3. Study Tracker (Python+SQLite)',
+        projects: () => '1. Brew & Co Café (React+Supabase+Razorpay)  2. Food Nutrition Analyzer (MERN+AI)  3. Question Randomizer (MERN+TS)  4. Password Analyzer (Node+C++)  5. Study Tracker (Python)  6. Employee Management System (C)',
         contact: () => 'Email: harshskilledar@gmail.com | Phone: +91-9764140255 | GitHub: @Harshu0829',
         clear: () => {
             setHistory([]);
