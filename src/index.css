@@ -1223,12 +1223,17 @@ section {
 
   /* Hero */
   .hero-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
     gap: 2.5rem;
     padding-top: 7rem;
     min-height: unset;
     padding-bottom: 2rem;
+  }
+
+  .hero-subtitle {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .hero-visual {
