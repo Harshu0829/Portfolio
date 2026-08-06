@@ -43,7 +43,7 @@ function App() {
             <Terminal />
 
             {/* Footer */}
-            <footer 
+            <footer
                 style={{
                     padding: '4rem 2rem',
                     textAlign: 'center',
@@ -55,7 +55,7 @@ function App() {
                 }}
             >
                 <div>&copy; {new Date().getFullYear()} Harsh Killedar. Built with focus &amp; craftsmanship.</div>
-                <div style={{ marginTop: '0.5rem', fontSize: '0.7rem' }}>All rights reserved. Designed to look human-developed.</div>
+                <div style={{ marginTop: '0.5rem', fontSize: '0.7rem' }}>All rights reserved.</div>
             </footer>
         </div>
     );
